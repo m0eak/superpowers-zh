@@ -4,7 +4,7 @@ description: "构建生产级 MCP 服务器或 MCP 工具——工具设计、�
 version: "1.0.0+lobe.2026-09-10"
 license: "MIT"
 ---
-<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-10 从 superpowers-zh@79ea5d2 生成。
+<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-10 从 superpowers-zh@8d1b39d 生成。
      要改内容请改上游 skills/ 或 overrides.json 后重新生成。 -->
 # MCP 服务器构建
 

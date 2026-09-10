@@ -4,7 +4,7 @@ description: "遇到任何 bug、测试失败或异常行为时，先按四阶�
 version: "1.0.0+lobe.2026-09-10"
 license: "MIT"
 ---
-<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-10 从 superpowers-zh@79ea5d2 生成。
+<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-10 从 superpowers-zh@8d1b39d 生成。
      要改内容请改上游 skills/ 或 overrides.json 后重新生成。 -->
 # 系统化调试
 

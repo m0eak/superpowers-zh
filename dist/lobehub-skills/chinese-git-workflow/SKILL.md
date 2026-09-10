@@ -4,7 +4,7 @@ description: "国内 Git 平台工作流配置——Gitee、Coding.net、极狐 
 version: "1.0.0+lobe.2026-09-10"
 license: "MIT"
 ---
-<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-10 从 superpowers-zh@79ea5d2 生成。
+<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-10 从 superpowers-zh@8d1b39d 生成。
      要改内容请改上游 skills/ 或 overrides.json 后重新生成。 -->
 # 国内 Git 工作流规范
 

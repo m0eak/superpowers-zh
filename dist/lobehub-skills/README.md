@@ -2,13 +2,25 @@
 
 机器生成的 LobeHub 可导入 skill，请勿手改；每次同步上游会全量重写。
 
+## 推荐：一次导入（合集入口）
+
+本目录根的 `SKILL.md`（`superpowers-zh-bundle`）是 20 合一入口：内含全部子技能的
+路由表 + 使用协议。只导入这一个，激活后按表格加载对应子文件夹的 SKILL.md；
+若导入时子目录未被捆绑，表格同时提供 raw 直链兜底。
+
+```
+https://github.com/m0eak/superpowers-zh/blob/main/dist/lobehub-skills/SKILL.md
+```
+
+## 可选：逐个导入（路由更精准）
+
 单个 skill 导入 URL 形如：
 
 ```
 https://github.com/m0eak/superpowers-zh/blob/main/dist/lobehub-skills/<name>/SKILL.md
 ```
 
-生成时间：2026-09-10  来源：superpowers-zh@79ea5d2  共 20 个。
+生成时间：2026-09-10  来源：superpowers-zh@8d1b39d  共 20 个。
 
 | skill | version | 资源 |
 |---|---|---|

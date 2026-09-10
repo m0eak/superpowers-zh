@@ -4,7 +4,7 @@ description: "superpowers 技能集的使用总则：如何按优先级选用合
 version: "1.0.0+lobe.2026-09-10"
 license: "MIT"
 ---
-<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-10 从 superpowers-zh@79ea5d2 生成。
+<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-10 从 superpowers-zh@8d1b39d 生成。
      要改内容请改上游 skills/ 或 overrides.json 后重新生成。 -->
 <SUBAGENT-STOP>
 如果你是作为子智能体被分派来执行特定任务的，忽略此技能。
