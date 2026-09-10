@@ -22,6 +22,8 @@ jobs:
         with:
           # 用默认 GITHUB_TOKEN 即可推送本仓库；pat 也可
           persist-credentials: true
+          # 必须完整历史：浅克隆会让 rev-list 虚报 ahead 数、merge 直接失败
+          fetch-depth: 0
 
       - name: Configure git identity
         run: |
