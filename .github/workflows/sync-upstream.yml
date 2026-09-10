@@ -1,0 +1,95 @@
+name: Sync upstream + regenerate LobeHub dist
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # UTC 00:00 = 上海 08:00，每日一次
+  workflow_dispatch: {}    # 允许手动触发
+
+permissions:
+  contents: write          # 需要 push 到 main
+  issues: write            # merge 冲突时开 issue
+
+concurrency:
+  group: sync-upstream
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          # 用默认 GITHUB_TOKEN 即可推送本仓库；pat 也可
+          persist-credentials: true
+
+      - name: Configure git identity
+        run: |
+          git config user.name "superpowers-sync-bot"
+          git config user.email "moeakyou@gmail.com"
+
+      - name: Add upstream remote
+        run: |
+          git remote add upstream https://github.com/jnMetaCode/superpowers-zh.git 2>/dev/null || true
+          git fetch --no-tags upstream main
+
+      - name: Check for upstream changes
+        id: check
+        run: |
+          BEFORE=$(git rev-parse HEAD)
+          echo "before=$BEFORE" >> "$GITHUB_OUTPUT"
+          # 上游是否有本地尚未合入的提交
+          AHEAD=$(git rev-list --count HEAD..upstream/main)
+          echo "ahead=$AHEAD" >> "$GITHUB_OUTPUT"
+          echo "upstream 新提交数: $AHEAD"
+
+      - name: Merge upstream/main
+        if: steps.check.outputs.ahead != '0'
+        id: merge
+        run: |
+          if git merge --no-edit upstream/main; then
+            echo "merged=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "merged=false" >> "$GITHUB_OUTPUT"
+            git merge --abort
+            echo "❌ merge 冲突（理论上不该发生：skills/ 从不手改）。已中止合并。"
+            exit 1
+          fi
+
+      - name: Open issue on conflict
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `⚠️ superpowers-zh 同步冲突 @ ${new Date().toISOString().slice(0,10)}`,
+              body: '上游 `merge` 出现冲突，自动同步已中止。skills/ 设计上从不手改，若仍冲突请人工检查 tools/ 或 dist/ 是否被上游新增路径撞上。需手动运行 `git merge upstream/main` 解决后重新触发本 workflow。',
+              labels: ['sync-conflict']
+            })
+
+      - name: Regenerate LobeHub dist
+        if: steps.merge.outputs.merged == 'true'
+        run: |
+          node tools/lobehub-adapter/generate.mjs
+
+      - name: Commit + push dist
+        if: steps.merge.outputs.merged == 'true'
+        run: |
+          git add -A dist/
+          if git diff --cached --quiet; then
+            echo "dist 无变化，跳过提交"
+            exit 0
+          fi
+          COMMIT=$(git rev-parse --short HEAD)
+          git commit -m "chore(dist): 同步上游后重新生成 ($COMMIT)"
+          git push origin HEAD:main
+
+      - name: Summary
+        run: |
+          {
+            echo "## 同步结果"
+            echo "- upstream 新提交: ${{ steps.check.outputs.ahead }}"
+            echo "- 已合并: ${{ steps.merge.outputs.merged || '无需合并（已是最新）' }}"
+          } >> "$GITHUB_STEP_SUMMARY"
