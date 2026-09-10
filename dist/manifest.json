@@ -1,0 +1,174 @@
+{
+  "generatedAt": "2026-09-10",
+  "upstreamCommit": "79ea5d2",
+  "count": 20,
+  "skills": [
+    {
+      "name": "brainstorming",
+      "version": "1.0.0+lobe.2026-09-10",
+      "contentHash": "be7209da3c0a",
+      "resources": [
+        "scripts/frame-template.html",
+        "scripts/helper.js",
+        "scripts/server.cjs",
+        "scripts/start-server.sh",
+        "scripts/stop-server.sh",
+        "spec-document-reviewer-prompt.md",
+        "visual-companion.md"
+      ]
+    },
+    {
+      "name": "chinese-code-review",
+      "version": "1.0.0+lobe.2026-09-10",
+      "contentHash": "ae25b43d60af",
+      "resources": []
+    },
+    {
+      "name": "chinese-commit-conventions",
+      "version": "1.0.0+lobe.2026-09-10",
+      "contentHash": "b78a4367430a",
+      "resources": []
+    },
+    {
+      "name": "chinese-documentation",
+      "version": "1.0.0+lobe.2026-09-10",
+      "contentHash": "94762e35afa9",
+      "resources": []
+    },
+    {
+      "name": "chinese-git-workflow",
+      "version": "1.0.0+lobe.2026-09-10",
+      "contentHash": "cac2fe06d4c6",
+      "resources": []
+    },
+    {
+      "name": "dispatching-parallel-agents",
+      "version": "1.0.0+lobe.2026-09-10",
+      "contentHash": "a6beda0cb496",
+      "resources": []
+    },
+    {
+      "name": "executing-plans",
+      "version": "1.0.0+lobe.2026-09-10",
+      "contentHash": "5ac1bdfb9513",
+      "resources": []
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "version": "1.0.0+lobe.2026-09-10",
+      "contentHash": "cf5432f38d5d",
+      "resources": []
+    },
+    {
+      "name": "mcp-builder",
+      "version": "1.0.0+lobe.2026-09-10",
+      "contentHash": "3117084b6a12",
+      "resources": []
+    },
+    {
+      "name": "receiving-code-review",
+      "version": "1.0.0+lobe.2026-09-10",
+      "contentHash": "55e7d5d6eb82",
+      "resources": []
+    },
+    {
+      "name": "requesting-code-review",
+      "version": "1.0.0+lobe.2026-09-10",
+      "contentHash": "67cca8f90b0a",
+      "resources": [
+        "code-reviewer.md"
+      ]
+    },
+    {
+      "name": "subagent-driven-development",
+      "version": "1.0.0+lobe.2026-09-10",
+      "contentHash": "7bc236ea610a",
+      "resources": [
+        "implementer-prompt.md",
+        "re-review-prompt.md",
+        "scripts/review-package",
+        "scripts/sdd-workspace",
+        "scripts/task-brief",
+        "task-reviewer-prompt.md"
+      ]
+    },
+    {
+      "name": "systematic-debugging",
+      "version": "1.0.0+lobe.2026-09-10",
+      "contentHash": "218841a8f9a2",
+      "resources": [
+        "CREATION-LOG.md",
+        "condition-based-waiting-example.ts",
+        "condition-based-waiting.md",
+        "defense-in-depth.md",
+        "find-polluter.sh",
+        "root-cause-tracing.md",
+        "test-academic.md",
+        "test-pressure-1.md",
+        "test-pressure-2.md",
+        "test-pressure-3.md"
+      ]
+    },
+    {
+      "name": "test-driven-development",
+      "version": "1.0.0+lobe.2026-09-10",
+      "contentHash": "aed9e1ce76ad",
+      "resources": [
+        "writing-good-tests.md"
+      ]
+    },
+    {
+      "name": "using-git-worktrees",
+      "version": "1.0.0+lobe.2026-09-10",
+      "contentHash": "1d2dd797ffcd",
+      "resources": []
+    },
+    {
+      "name": "using-superpowers",
+      "version": "1.0.0+lobe.2026-09-10",
+      "contentHash": "d050a40cb218",
+      "resources": [
+        "references/antigravity-tools.md",
+        "references/codex-tools.md",
+        "references/copilot-tools.md",
+        "references/gemini-tools.md",
+        "references/hermes-tools.md",
+        "references/pi-tools.md",
+        "references/qoder-tools.md"
+      ]
+    },
+    {
+      "name": "verification-before-completion",
+      "version": "1.0.0+lobe.2026-09-10",
+      "contentHash": "9458cdb78dec",
+      "resources": []
+    },
+    {
+      "name": "workflow-runner",
+      "version": "1.0.0+lobe.2026-09-10",
+      "contentHash": "d1eb3e070776",
+      "resources": []
+    },
+    {
+      "name": "writing-plans",
+      "version": "1.0.0+lobe.2026-09-10",
+      "contentHash": "9174ee1946d5",
+      "resources": [
+        "plan-document-reviewer-prompt.md"
+      ]
+    },
+    {
+      "name": "writing-skills",
+      "version": "1.0.0+lobe.2026-09-10",
+      "contentHash": "ecbbbf030a94",
+      "resources": [
+        "anthropic-best-practices.md",
+        "examples/CLAUDE_MD_TESTING.md",
+        "graphviz-conventions.dot",
+        "persuasion-principles.md",
+        "render-graphs.js",
+        "testing-skills-with-subagents.md"
+      ]
+    }
+  ]
+}
