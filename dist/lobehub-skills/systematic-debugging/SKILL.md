@@ -1,10 +1,10 @@
 ---
 name: "systematic-debugging"
 description: "遇到任何 bug、测试失败或异常行为时，先按四阶段（定位→分析→假设→修复）系统化调试，再提修复方案，而非猜测乱改。关键词：调试、debug、排查 bug、测试失败、根因分析、定位问题。"
-version: "1.0.0+lobe.2026-09-10"
+version: "1.0.0+lobe.2026-09-16"
 license: "MIT"
 ---
-<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-10 从 superpowers-zh@8d1b39d 生成。
+<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-16 从 superpowers-zh@bbedda3 生成。
      要改内容请改上游 skills/ 或 overrides.json 后重新生成。 -->
 # 系统化调试
 

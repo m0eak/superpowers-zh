@@ -1,10 +1,10 @@
 ---
 name: "brainstorming"
 description: "在任何创造性工作（新功能、新组件、改行为、写代码）之前先做需求与设计探索，明确用户意图和边界，再动手实现。关键词：头脑风暴、需求梳理、方案设计、先别写代码、探索意图。"
-version: "1.0.0+lobe.2026-09-10"
+version: "1.0.0+lobe.2026-09-16"
 license: "MIT"
 ---
-<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-10 从 superpowers-zh@8d1b39d 生成。
+<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-16 从 superpowers-zh@bbedda3 生成。
      要改内容请改上游 skills/ 或 overrides.json 后重新生成。 -->
 # 头脑风暴：将想法转化为设计
 

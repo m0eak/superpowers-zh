@@ -1,10 +1,10 @@
 ---
 name: "executing-plans"
 description: "按一份已写好的实现计划逐步执行，在审查检查点停下核对，每步验证后再继续。关键词：执行计划、按计划实施、落地方案、implementation plan、分步执行。"
-version: "1.0.0+lobe.2026-09-10"
+version: "1.0.0+lobe.2026-09-16"
 license: "MIT"
 ---
-<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-10 从 superpowers-zh@8d1b39d 生成。
+<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-16 从 superpowers-zh@bbedda3 生成。
      要改内容请改上游 skills/ 或 overrides.json 后重新生成。 -->
 # 执行计划
 

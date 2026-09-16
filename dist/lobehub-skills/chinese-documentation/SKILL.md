@@ -1,10 +1,10 @@
 ---
 name: "chinese-documentation"
 description: "中文技术文档排版规范——中英文之间空格、全半角标点、术语保留英文、链接格式、中文文案排版指北。关键词：中文排版、文档规范、中英混排、机翻味、文案指北、技术写作。"
-version: "1.0.0+lobe.2026-09-10"
+version: "1.0.0+lobe.2026-09-16"
 license: "MIT"
 ---
-<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-10 从 superpowers-zh@8d1b39d 生成。
+<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-16 从 superpowers-zh@bbedda3 生成。
      要改内容请改上游 skills/ 或 overrides.json 后重新生成。 -->
 # 中文技术文档写作规范
 

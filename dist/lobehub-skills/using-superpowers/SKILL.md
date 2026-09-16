@@ -1,10 +1,10 @@
 ---
 name: "using-superpowers"
 description: "superpowers 技能集的使用总则：如何按优先级选用合适的编程方法论 skill。关键词：superpowers、技能总览、方法论、如何选技能、工作流约定。注意：LobeHub 会自动路由技能，本 skill 仅作背景约定参考。"
-version: "1.0.0+lobe.2026-09-10"
+version: "1.0.0+lobe.2026-09-16"
 license: "MIT"
 ---
-<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-10 从 superpowers-zh@8d1b39d 生成。
+<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-16 从 superpowers-zh@bbedda3 生成。
      要改内容请改上游 skills/ 或 overrides.json 后重新生成。 -->
 <SUBAGENT-STOP>
 如果你是作为子智能体被分派来执行特定任务的，忽略此技能。

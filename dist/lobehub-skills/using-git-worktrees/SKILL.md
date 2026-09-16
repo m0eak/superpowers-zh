@@ -1,10 +1,10 @@
 ---
 name: "using-git-worktrees"
 description: "需要与当前工作区隔离地做功能开发，或在执行实现计划前确保有独立工作区时，用 git worktree（或平台原生隔离）建立隔离环境。关键词：git worktree、隔离工作区、分支隔离、独立开发环境。"
-version: "1.0.0+lobe.2026-09-10"
+version: "1.0.0+lobe.2026-09-16"
 license: "MIT"
 ---
-<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-10 从 superpowers-zh@8d1b39d 生成。
+<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-16 从 superpowers-zh@bbedda3 生成。
      要改内容请改上游 skills/ 或 overrides.json 后重新生成。 -->
 # 使用 Git 工作树
 
