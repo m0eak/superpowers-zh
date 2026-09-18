@@ -1,10 +1,10 @@
 ---
 name: "writing-plans"
 description: "拿到规格或需求后、动手写代码前，把它拆成可执行的实现计划（范围检查、文件结构、任务粒度）。关键词：编写计划、写实现计划、任务拆分、方案设计、implementation plan。"
-version: "1.0.0+lobe.2026-09-16"
+version: "1.0.0+lobe.2026-09-18"
 license: "MIT"
 ---
-<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-16 从 superpowers-zh@bbedda3 生成。
+<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-18 从 superpowers-zh@6a1d715 生成。
      要改内容请改上游 skills/ 或 overrides.json 后重新生成。 -->
 # 编写计划
 

@@ -1,10 +1,10 @@
 ---
 name: "mcp-builder"
 description: "构建生产级 MCP 服务器或 MCP 工具——工具设计、输入校验、错误处理、传输层选择与测试。关键词：MCP、MCP server、MCP 工具、tool 设计、接入外部能力、Model Context Protocol。"
-version: "1.0.0+lobe.2026-09-16"
+version: "1.0.0+lobe.2026-09-18"
 license: "MIT"
 ---
-<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-16 从 superpowers-zh@bbedda3 生成。
+<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-18 从 superpowers-zh@6a1d715 生成。
      要改内容请改上游 skills/ 或 overrides.json 后重新生成。 -->
 # MCP 服务器构建
 

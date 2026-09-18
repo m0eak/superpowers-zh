@@ -1,10 +1,10 @@
 ---
 name: "subagent-driven-development"
 description: "在当前会话中以子 agent 为单位驱动实现计划：每个任务一个 agent，配两轮审查。关键词：子 agent 开发、subagent、任务拆分执行、逐任务审查、多角色开发。"
-version: "1.0.0+lobe.2026-09-16"
+version: "1.0.0+lobe.2026-09-18"
 license: "MIT"
 ---
-<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-16 从 superpowers-zh@bbedda3 生成。
+<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-18 从 superpowers-zh@6a1d715 生成。
      要改内容请改上游 skills/ 或 overrides.json 后重新生成。 -->
 # 子智能体驱动开发
 

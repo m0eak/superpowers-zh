@@ -1,10 +1,10 @@
 ---
 name: "receiving-code-review"
 description: "收到代码审查反馈后、实施修改前，以技术严谨性判断并验证每条建议，而非敷衍附和或盲目照改。关键词：处理审查反馈、回应 review、code review 回复、验证建议、技术判断。"
-version: "1.0.0+lobe.2026-09-16"
+version: "1.0.0+lobe.2026-09-18"
 license: "MIT"
 ---
-<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-16 从 superpowers-zh@bbedda3 生成。
+<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-18 从 superpowers-zh@6a1d715 生成。
      要改内容请改上游 skills/ 或 overrides.json 后重新生成。 -->
 # 接收代码审查
 

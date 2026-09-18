@@ -1,10 +1,10 @@
 ---
 name: "dispatching-parallel-agents"
 description: "面对两个及以上相互独立、无共享状态、无先后依赖的任务时，派遣并行 agent 并发执行。关键词：并行、多任务、并发执行、独立任务、dispatch、同时处理。"
-version: "1.0.0+lobe.2026-09-16"
+version: "1.0.0+lobe.2026-09-18"
 license: "MIT"
 ---
-<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-16 从 superpowers-zh@bbedda3 生成。
+<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-18 从 superpowers-zh@6a1d715 生成。
      要改内容请改上游 skills/ 或 overrides.json 后重新生成。 -->
 # 并行分派智能体
 

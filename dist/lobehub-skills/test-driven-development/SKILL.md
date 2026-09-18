@@ -1,10 +1,10 @@
 ---
 name: "test-driven-development"
 description: "实现任何功能或修 bug 时严格遵循 TDD：先写失败测试（红），再写实现（绿），最后重构。关键词：TDD、测试驱动、先写测试、红绿重构、写测试再写代码。"
-version: "1.0.0+lobe.2026-09-16"
+version: "1.0.0+lobe.2026-09-18"
 license: "MIT"
 ---
-<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-16 从 superpowers-zh@bbedda3 生成。
+<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-18 从 superpowers-zh@6a1d715 生成。
      要改内容请改上游 skills/ 或 overrides.json 后重新生成。 -->
 # 测试驱动开发（TDD）
 

@@ -1,10 +1,10 @@
 ---
 name: "requesting-code-review"
 description: "完成任务、实现重要功能或合并前，主动派遣审查 agent 检查代码质量、安全与正确性。关键词：请求代码审查、发起 review、合并前检查、派审查 agent、code review。"
-version: "1.0.0+lobe.2026-09-16"
+version: "1.0.0+lobe.2026-09-18"
 license: "MIT"
 ---
-<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-16 从 superpowers-zh@bbedda3 生成。
+<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-18 从 superpowers-zh@6a1d715 生成。
      要改内容请改上游 skills/ 或 overrides.json 后重新生成。 -->
 # 请求代码审查
 

@@ -1,10 +1,10 @@
 ---
 name: "chinese-code-review"
 description: "中文代码审查话术与规范——分级标注（必须修复/建议修改/仅供参考）、中英混排注释、国内团队反模式应对。关键词：代码审查、code review、评审、review 话术、中文规范、分级标注、PR 审查。"
-version: "1.0.0+lobe.2026-09-16"
+version: "1.0.0+lobe.2026-09-18"
 license: "MIT"
 ---
-<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-16 从 superpowers-zh@bbedda3 生成。
+<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-18 从 superpowers-zh@6a1d715 生成。
      要改内容请改上游 skills/ 或 overrides.json 后重新生成。 -->
 # 中文代码审查规范
 

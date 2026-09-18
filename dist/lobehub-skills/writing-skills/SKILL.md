@@ -1,10 +1,10 @@
 ---
 name: "writing-skills"
 description: "创建、编辑或部署前验证一个 skill 时使用——用类 TDD 方法打磨技能定义与触发描述。关键词：写 skill、创建技能、编辑技能、技能验证、SKILL.md、skill 开发。"
-version: "1.0.0+lobe.2026-09-16"
+version: "1.0.0+lobe.2026-09-18"
 license: "MIT"
 ---
-<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-16 从 superpowers-zh@bbedda3 生成。
+<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-18 从 superpowers-zh@6a1d715 生成。
      要改内容请改上游 skills/ 或 overrides.json 后重新生成。 -->
 # 编写技能
 

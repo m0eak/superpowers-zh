@@ -1,10 +1,10 @@
 ---
 name: "chinese-commit-conventions"
 description: "中文 commit message 与 changelog 规范——Conventional Commits 中文适配、commitlint/husky/commitizen 中文模板、conventional-changelog 配置。关键词：commit 规范、提交信息、changelog、CHANGELOG、commitlint、约定式提交、中文提交。"
-version: "1.0.0+lobe.2026-09-16"
+version: "1.0.0+lobe.2026-09-18"
 license: "MIT"
 ---
-<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-16 从 superpowers-zh@bbedda3 生成。
+<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-18 从 superpowers-zh@6a1d715 生成。
      要改内容请改上游 skills/ 或 overrides.json 后重新生成。 -->
 # 中文 Git 提交规范
 
