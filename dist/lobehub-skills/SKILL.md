@@ -1,11 +1,11 @@
 ---
 name: "superpowers-zh-bundle"
 description: "superpowers-zh 20 个编程方法论 skill 的合集入口（导入这一个即覆盖全部）：头脑风暴、编写/执行计划、TDD、系统化调试、请求/接收代码审查、完成前验证、并行派遣、子 agent 开发、git worktree、分支收尾、MCP 服务器构建、YAML 工作流，以及中文代码审查话术、中文 commit 规范、中文文档排版、国内 Git 平台（Gitee/Coding/极狐/CNB）工作流。激活后按正文表格定位子技能文件并严格遵循。关键词：头脑风暴、brainstorming、实现计划、TDD、测试驱动、调试、debug、根因分析、代码审查、code review、PR 审查、commit 规范、提交信息、中文排版、文档规范、Gitee、worktree、分支合并、MCP、YAML 工作流、完成前验证、证据先行、子 agent、并行任务、superpowers、方法论。"
-version: "1.0.0+lobe.2026-09-18"
+version: "1.0.0+lobe.2026-09-29"
 license: "MIT"
 ---
 
-<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-18 从 superpowers-zh@6a1d715 生成。 -->
+<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-29 从 superpowers-zh@fcb6db0 生成。 -->
 
 # Superpowers 方法论合集（20 合一入口）
 
@@ -28,6 +28,7 @@ license: "MIT"
 | `chinese-commit-conventions` | 中文 commit message 与 changelog 规范——Conventional Commits 中文适配、commitlint/husky/commitizen 中文模板、conventional-changelog 配置 | `chinese-commit-conventions/SKILL.md` | [获取](https://raw.githubusercontent.com/m0eak/superpowers-zh/main/dist/lobehub-skills/chinese-commit-conventions/SKILL.md) |
 | `chinese-documentation` | 中文技术文档排版规范——中英文之间空格、全半角标点、术语保留英文、链接格式、中文文案排版指北 | `chinese-documentation/SKILL.md` | [获取](https://raw.githubusercontent.com/m0eak/superpowers-zh/main/dist/lobehub-skills/chinese-documentation/SKILL.md) |
 | `chinese-git-workflow` | 国内 Git 平台工作流配置——Gitee、Coding.net、极狐 GitLab、CNB 的 SSH/HTTPS/凭据/CI 接入差异与镜像同步 | `chinese-git-workflow/SKILL.md` | [获取](https://raw.githubusercontent.com/m0eak/superpowers-zh/main/dist/lobehub-skills/chinese-git-workflow/SKILL.md) |
+| `diagnosing-superpowers` | 当一次 superpowers 会话出了问题、你的人类伙伴想知道原因时使用——重复劳动、无视计划、磕磕绊绊、结果质量差、某个技能没触发、"太慢了"、"为什么这么贵"、"它到底在干什么"——或者想给 superpowers 维护者整理一份 bug 报告；适用于当前会话，或按 id / 路径指定的过往会话，任何工具均可 | `diagnosing-superpowers/SKILL.md` | [获取](https://raw.githubusercontent.com/m0eak/superpowers-zh/main/dist/lobehub-skills/diagnosing-superpowers/SKILL.md) |
 | `dispatching-parallel-agents` | 面对两个及以上相互独立、无共享状态、无先后依赖的任务时，派遣并行 agent 并发执行 | `dispatching-parallel-agents/SKILL.md` | [获取](https://raw.githubusercontent.com/m0eak/superpowers-zh/main/dist/lobehub-skills/dispatching-parallel-agents/SKILL.md) |
 | `executing-plans` | 按一份已写好的实现计划逐步执行，在审查检查点停下核对，每步验证后再继续 | `executing-plans/SKILL.md` | [获取](https://raw.githubusercontent.com/m0eak/superpowers-zh/main/dist/lobehub-skills/executing-plans/SKILL.md) |
 | `finishing-a-development-branch` | 实现完成、测试通过后决定如何集成这份改动：合并 / 提 PR / 保留 / 丢弃四选一 | `finishing-a-development-branch/SKILL.md` | [获取](https://raw.githubusercontent.com/m0eak/superpowers-zh/main/dist/lobehub-skills/finishing-a-development-branch/SKILL.md) |
@@ -46,4 +47,4 @@ license: "MIT"
 
 ## 版本
 
-上游 superpowers-zh@6a1d715，生成于 2026-09-18。子技能各自的版本与 contentHash 见 `../manifest.json`。
+上游 superpowers-zh@fcb6db0，生成于 2026-09-29。子技能各自的版本与 contentHash 见 `../manifest.json`。

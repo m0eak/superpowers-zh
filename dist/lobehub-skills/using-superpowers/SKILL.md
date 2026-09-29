@@ -1,10 +1,10 @@
 ---
 name: "using-superpowers"
 description: "superpowers 技能集的使用总则：如何按优先级选用合适的编程方法论 skill。关键词：superpowers、技能总览、方法论、如何选技能、工作流约定。注意：LobeHub 会自动路由技能，本 skill 仅作背景约定参考。"
-version: "1.0.0+lobe.2026-09-18"
+version: "1.0.0+lobe.2026-09-29"
 license: "MIT"
 ---
-<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-18 从 superpowers-zh@6a1d715 生成。
+<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-29 从 superpowers-zh@fcb6db0 生成。
      要改内容请改上游 skills/ 或 overrides.json 后重新生成。 -->
 <SUBAGENT-STOP>
 如果你是作为子智能体被分派来执行特定任务的，忽略此技能。
@@ -56,12 +56,14 @@ license: "MIT"
 
 如果你的运行环境在下面列出，请阅读对应的参考文件获取特殊说明：
 
+- Claude Code：`references/claude-code-tools.md`
 - Codex：`references/codex-tools.md`
 - Pi：`references/pi-tools.md`
 - Antigravity：`references/antigravity-tools.md`
 - Copilot CLI：`references/copilot-tools.md`
 - Hermes Agent：`references/hermes-tools.md`
 - Qoder：`references/qoder-tools.md`
+- Muse：`references/muse-tools.md`
 
 Gemini CLI 用户通过 GEMINI.md 自动获得 `references/gemini-tools.md` 的工具映射。
 

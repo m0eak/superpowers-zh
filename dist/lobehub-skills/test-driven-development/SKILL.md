@@ -1,10 +1,10 @@
 ---
 name: "test-driven-development"
 description: "实现任何功能或修 bug 时严格遵循 TDD：先写失败测试（红），再写实现（绿），最后重构。关键词：TDD、测试驱动、先写测试、红绿重构、写测试再写代码。"
-version: "1.0.0+lobe.2026-09-18"
+version: "1.0.0+lobe.2026-09-29"
 license: "MIT"
 ---
-<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-18 从 superpowers-zh@6a1d715 生成。
+<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-09-29 从 superpowers-zh@fcb6db0 生成。
      要改内容请改上游 skills/ 或 overrides.json 后重新生成。 -->
 # 测试驱动开发（TDD）
 
@@ -184,6 +184,8 @@ npm test path/to/test.test.ts
 **测试失败了？** 修改代码，不是测试。
 
 **其他测试失败了？** 立即修复。
+
+**"其他测试"指的是项目的整个测试套件，不只是你那个文件。** 你写的那个测试跑绿了，不等于测试套件是绿的。在宣称改动完成之前，运行项目的测试命令（直接 `pytest`、`npm test`、`cargo test`——仓库用什么就跑什么），即使你的任务只点名了一个测试文件。任务里的范围说明约束的是交付物，不是你的验证。那次运行暴露出的任何失败——包括不是你造成的——都要在报告里点名写出；一个你眼看着滚过去却没提的红色测试，就是一份靠遗漏造假的报告。
 
 ### 重构 - 清理代码
 
