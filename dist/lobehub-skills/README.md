@@ -20,28 +20,28 @@ https://github.com/m0eak/superpowers-zh/blob/main/dist/lobehub-skills/SKILL.md
 https://github.com/m0eak/superpowers-zh/blob/main/dist/lobehub-skills/<name>/SKILL.md
 ```
 
-生成时间：2026-09-30  来源：superpowers-zh@6076075  共 21 个。
+生成时间：2026-10-05  来源：superpowers-zh@7b54ba9  共 21 个。
 
 | skill | version | 资源 |
 |---|---|---|
-| brainstorming | 1.0.0+lobe.2026-09-30 | scripts/frame-template.html, scripts/helper.js, scripts/server.cjs, scripts/start-server.sh, scripts/stop-server.sh, spec-document-reviewer-prompt.md, visual-companion.md |
-| chinese-code-review | 1.0.0+lobe.2026-09-30 | — |
-| chinese-commit-conventions | 1.0.0+lobe.2026-09-30 | — |
-| chinese-documentation | 1.0.0+lobe.2026-09-30 | — |
-| chinese-git-workflow | 1.0.0+lobe.2026-09-30 | — |
-| diagnosing-superpowers | 1.0.0+lobe.2026-09-30 | prompts/analyst-common.md, prompts/cost-and-time.md, prompts/plan-adherence.md, prompts/quality-evidence.md, prompts/repeated-work.md, prompts/request-conflicts.md, prompts/scrub-audit.md, prompts/scrub.md, prompts/similar-session.md, prompts/skill-timeline.md, prompts/stumbles.md, references/context-safety.md, references/github-issues.md, references/redaction-policy.md, references/session-discovery.md, templates/bundle-README.md, templates/case.md, templates/issue.md, templates/report.md |
-| dispatching-parallel-agents | 1.0.0+lobe.2026-09-30 | — |
-| executing-plans | 1.0.0+lobe.2026-09-30 | scripts/task-done, scripts/task-start |
-| finishing-a-development-branch | 1.0.0+lobe.2026-09-30 | — |
-| mcp-builder | 1.0.0+lobe.2026-09-30 | — |
-| receiving-code-review | 1.0.0+lobe.2026-09-30 | — |
-| requesting-code-review | 1.0.0+lobe.2026-09-30 | code-reviewer.md |
-| subagent-driven-development | 1.0.0+lobe.2026-09-30 | implementer-prompt.md, re-review-prompt.md, scripts/review-package, scripts/sdd-workspace, scripts/task-brief, task-reviewer-prompt.md |
-| systematic-debugging | 1.0.0+lobe.2026-09-30 | CREATION-LOG.md, condition-based-waiting-example.ts, condition-based-waiting.md, defense-in-depth.md, find-polluter.sh, root-cause-tracing.md, test-academic.md, test-pressure-1.md, test-pressure-2.md, test-pressure-3.md |
-| test-driven-development | 1.0.0+lobe.2026-09-30 | writing-good-tests.md |
-| using-git-worktrees | 1.0.0+lobe.2026-09-30 | — |
-| using-superpowers | 1.0.0+lobe.2026-09-30 | references/antigravity-tools.md, references/claude-code-tools.md, references/codex-tools.md, references/copilot-tools.md, references/gemini-tools.md, references/hermes-tools.md, references/muse-tools.md, references/pi-tools.md, references/qoder-tools.md |
-| verification-before-completion | 1.0.0+lobe.2026-09-30 | — |
-| workflow-runner | 1.0.0+lobe.2026-09-30 | — |
-| writing-plans | 1.0.0+lobe.2026-09-30 | — |
-| writing-skills | 1.0.0+lobe.2026-09-30 | anthropic-best-practices.md, examples/CLAUDE_MD_TESTING.md, graphviz-conventions.dot, persuasion-principles.md, render-graphs.js, testing-skills-with-subagents.md |
+| brainstorming | 1.0.0+lobe.2026-10-05 | scripts/frame-template.html, scripts/helper.js, scripts/server.cjs, scripts/start-server.sh, scripts/stop-server.sh, spec-document-reviewer-prompt.md, visual-companion.md |
+| chinese-code-review | 1.0.0+lobe.2026-10-05 | — |
+| chinese-commit-conventions | 1.0.0+lobe.2026-10-05 | — |
+| chinese-documentation | 1.0.0+lobe.2026-10-05 | — |
+| chinese-git-workflow | 1.0.0+lobe.2026-10-05 | — |
+| diagnosing-superpowers | 1.0.0+lobe.2026-10-05 | prompts/analyst-common.md, prompts/cost-and-time.md, prompts/plan-adherence.md, prompts/quality-evidence.md, prompts/repeated-work.md, prompts/request-conflicts.md, prompts/scrub-audit.md, prompts/scrub.md, prompts/similar-session.md, prompts/skill-timeline.md, prompts/stumbles.md, references/context-safety.md, references/github-issues.md, references/redaction-policy.md, references/session-discovery.md, templates/bundle-README.md, templates/case.md, templates/issue.md, templates/report.md |
+| dispatching-parallel-agents | 1.0.0+lobe.2026-10-05 | — |
+| executing-plans | 1.0.0+lobe.2026-10-05 | scripts/task-done, scripts/task-start |
+| finishing-a-development-branch | 1.0.0+lobe.2026-10-05 | — |
+| mcp-builder | 1.0.0+lobe.2026-10-05 | — |
+| receiving-code-review | 1.0.0+lobe.2026-10-05 | — |
+| requesting-code-review | 1.0.0+lobe.2026-10-05 | code-reviewer.md |
+| subagent-driven-development | 1.0.0+lobe.2026-10-05 | implementer-prompt.md, re-review-prompt.md, scripts/review-package, scripts/sdd-workspace, scripts/task-brief, task-reviewer-prompt.md |
+| systematic-debugging | 1.0.0+lobe.2026-10-05 | CREATION-LOG.md, condition-based-waiting-example.ts, condition-based-waiting.md, defense-in-depth.md, find-polluter.sh, root-cause-tracing.md, test-academic.md, test-pressure-1.md, test-pressure-2.md, test-pressure-3.md |
+| test-driven-development | 1.0.0+lobe.2026-10-05 | writing-good-tests.md |
+| using-git-worktrees | 1.0.0+lobe.2026-10-05 | — |
+| using-superpowers | 1.0.0+lobe.2026-10-05 | references/antigravity-tools.md, references/claude-code-tools.md, references/codex-tools.md, references/copilot-tools.md, references/gemini-tools.md, references/hermes-tools.md, references/muse-tools.md, references/pi-tools.md, references/qoder-tools.md |
+| verification-before-completion | 1.0.0+lobe.2026-10-05 | — |
+| workflow-runner | 1.0.0+lobe.2026-10-05 | — |
+| writing-plans | 1.0.0+lobe.2026-10-05 | — |
+| writing-skills | 1.0.0+lobe.2026-10-05 | anthropic-best-practices.md, examples/CLAUDE_MD_TESTING.md, graphviz-conventions.dot, persuasion-principles.md, render-graphs.js, testing-skills-with-subagents.md |
