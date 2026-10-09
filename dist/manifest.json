@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-05",
-  "upstreamCommit": "7b54ba9",
+  "generatedAt": "2026-10-09",
+  "upstreamCommit": "c7911bf",
   "count": 21,
   "skills": [
     {
       "name": "brainstorming",
-      "version": "1.0.0+lobe.2026-10-05",
-      "contentHash": "f0b410e947d2",
+      "version": "1.0.0+lobe.2026-10-09",
+      "contentHash": "1ac837c4628c",
       "summary": "在任何创造性工作（新功能、新组件、改行为、写代码）之前先做需求与设计探索，明确用户意图和边界，再动手实现。关键词：头脑风暴、需求梳理、方案设计、先别写代码、探索意图。",
       "resources": [
         "scripts/frame-template.html",
@@ -20,36 +20,36 @@
     },
     {
       "name": "chinese-code-review",
-      "version": "1.0.0+lobe.2026-10-05",
-      "contentHash": "f386baa68bc7",
+      "version": "1.0.0+lobe.2026-10-09",
+      "contentHash": "d3cf101b3ab1",
       "summary": "中文代码审查话术与规范——分级标注（必须修复/建议修改/仅供参考）、中英混排注释、国内团队反模式应对。关键词：代码审查、code review、评审、review 话术、中文规范、分级标注、PR 审查。",
       "resources": []
     },
     {
       "name": "chinese-commit-conventions",
-      "version": "1.0.0+lobe.2026-10-05",
-      "contentHash": "30d98c3f89ff",
+      "version": "1.0.0+lobe.2026-10-09",
+      "contentHash": "d082a6e462b1",
       "summary": "中文 commit message 与 changelog 规范——Conventional Commits 中文适配、commitlint/husky/commitizen 中文模板、conventional-changelog 配置。关键词：commit 规范、提交信息、changelog、CHANGELOG、commitlint、约定式提交、中文提交。",
       "resources": []
     },
     {
       "name": "chinese-documentation",
-      "version": "1.0.0+lobe.2026-10-05",
-      "contentHash": "bc4db2caa94a",
+      "version": "1.0.0+lobe.2026-10-09",
+      "contentHash": "830d68639f68",
       "summary": "中文技术文档排版规范——中英文之间空格、全半角标点、术语保留英文、链接格式、中文文案排版指北。关键词：中文排版、文档规范、中英混排、机翻味、文案指北、技术写作。",
       "resources": []
     },
     {
       "name": "chinese-git-workflow",
-      "version": "1.0.0+lobe.2026-10-05",
-      "contentHash": "9cc7f697329b",
+      "version": "1.0.0+lobe.2026-10-09",
+      "contentHash": "2bc9fbf4811d",
       "summary": "国内 Git 平台工作流配置——Gitee、Coding.net、极狐 GitLab、CNB 的 SSH/HTTPS/凭据/CI 接入差异与镜像同步。关键词：Gitee、码云、Coding.net、极狐、GitLab、CNB、国内 git、镜像同步、CI 接入。",
       "resources": []
     },
     {
       "name": "diagnosing-superpowers",
-      "version": "1.0.0+lobe.2026-10-05",
-      "contentHash": "9828280317a3",
+      "version": "1.0.0+lobe.2026-10-09",
+      "contentHash": "a1a45c5e18f0",
       "summary": "当一次 superpowers 会话出了问题、你的人类伙伴想知道原因时使用——重复劳动、无视计划、磕磕绊绊、结果质量差、某个技能没触发、\"太慢了\"、\"为什么这么贵\"、\"它到底在干什么\"——或者想给 superpowers 维护者整理一份 bug 报告；适用于当前会话，或按 id / 路径指定的过往会话，任何工具均可",
       "resources": [
         "prompts/analyst-common.md",
@@ -75,15 +75,15 @@
     },
     {
       "name": "dispatching-parallel-agents",
-      "version": "1.0.0+lobe.2026-10-05",
-      "contentHash": "f4bad2449076",
+      "version": "1.0.0+lobe.2026-10-09",
+      "contentHash": "d22feee11d37",
       "summary": "面对两个及以上相互独立、无共享状态、无先后依赖的任务时，派遣并行 agent 并发执行。关键词：并行、多任务、并发执行、独立任务、dispatch、同时处理。",
       "resources": []
     },
     {
       "name": "executing-plans",
-      "version": "1.0.0+lobe.2026-10-05",
-      "contentHash": "6e3f9ed24157",
+      "version": "1.0.0+lobe.2026-10-09",
+      "contentHash": "ffb34e3cc4cb",
       "summary": "按一份已写好的实现计划逐步执行，在审查检查点停下核对，每步验证后再继续。关键词：执行计划、按计划实施、落地方案、implementation plan、分步执行。",
       "resources": [
         "scripts/task-done",
@@ -92,29 +92,29 @@
     },
     {
       "name": "finishing-a-development-branch",
-      "version": "1.0.0+lobe.2026-10-05",
-      "contentHash": "c7c67a70196d",
+      "version": "1.0.0+lobe.2026-10-09",
+      "contentHash": "b74c729542a4",
       "summary": "实现完成、测试通过后决定如何集成这份改动：合并 / 提 PR / 保留 / 丢弃四选一。关键词：收尾分支、合并、创建 PR、集成、分支处理、feature 完成。",
       "resources": []
     },
     {
       "name": "mcp-builder",
-      "version": "1.0.0+lobe.2026-10-05",
-      "contentHash": "276ac5191080",
+      "version": "1.0.0+lobe.2026-10-09",
+      "contentHash": "10ec2c60aeef",
       "summary": "构建生产级 MCP 服务器或 MCP 工具——工具设计、输入校验、错误处理、传输层选择与测试。关键词：MCP、MCP server、MCP 工具、tool 设计、接入外部能力、Model Context Protocol。",
       "resources": []
     },
     {
       "name": "receiving-code-review",
-      "version": "1.0.0+lobe.2026-10-05",
-      "contentHash": "b9af201ea928",
+      "version": "1.0.0+lobe.2026-10-09",
+      "contentHash": "79ebc09ce514",
       "summary": "收到代码审查反馈后、实施修改前，以技术严谨性判断并验证每条建议，而非敷衍附和或盲目照改。关键词：处理审查反馈、回应 review、code review 回复、验证建议、技术判断。",
       "resources": []
     },
     {
       "name": "requesting-code-review",
-      "version": "1.0.0+lobe.2026-10-05",
-      "contentHash": "c30a862bfa1b",
+      "version": "1.0.0+lobe.2026-10-09",
+      "contentHash": "1d80097f61bb",
       "summary": "完成任务、实现重要功能或合并前，主动派遣审查 agent 检查代码质量、安全与正确性。关键词：请求代码审查、发起 review、合并前检查、派审查 agent、code review。",
       "resources": [
         "code-reviewer.md"
@@ -122,8 +122,8 @@
     },
     {
       "name": "subagent-driven-development",
-      "version": "1.0.0+lobe.2026-10-05",
-      "contentHash": "b1fb2d20ace0",
+      "version": "1.0.0+lobe.2026-10-09",
+      "contentHash": "ee83322af5bc",
       "summary": "在当前会话中以子 agent 为单位驱动实现计划：每个任务一个 agent，配两轮审查。关键词：子 agent 开发、subagent、任务拆分执行、逐任务审查、多角色开发。",
       "resources": [
         "implementer-prompt.md",
@@ -136,8 +136,8 @@
     },
     {
       "name": "systematic-debugging",
-      "version": "1.0.0+lobe.2026-10-05",
-      "contentHash": "5021e07c1412",
+      "version": "1.0.0+lobe.2026-10-09",
+      "contentHash": "4a8f76b8c38b",
       "summary": "遇到任何 bug、测试失败或异常行为时，先按四阶段（定位→分析→假设→修复）系统化调试，再提修复方案，而非猜测乱改。关键词：调试、debug、排查 bug、测试失败、根因分析、定位问题。",
       "resources": [
         "CREATION-LOG.md",
@@ -154,8 +154,8 @@
     },
     {
       "name": "test-driven-development",
-      "version": "1.0.0+lobe.2026-10-05",
-      "contentHash": "c09a301bddde",
+      "version": "1.0.0+lobe.2026-10-09",
+      "contentHash": "623d10059458",
       "summary": "实现任何功能或修 bug 时严格遵循 TDD：先写失败测试（红），再写实现（绿），最后重构。关键词：TDD、测试驱动、先写测试、红绿重构、写测试再写代码。",
       "resources": [
         "writing-good-tests.md"
@@ -163,15 +163,15 @@
     },
     {
       "name": "using-git-worktrees",
-      "version": "1.0.0+lobe.2026-10-05",
-      "contentHash": "80c18b916205",
+      "version": "1.0.0+lobe.2026-10-09",
+      "contentHash": "9b6f54c975dc",
       "summary": "需要与当前工作区隔离地做功能开发，或在执行实现计划前确保有独立工作区时，用 git worktree（或平台原生隔离）建立隔离环境。关键词：git worktree、隔离工作区、分支隔离、独立开发环境。",
       "resources": []
     },
     {
       "name": "using-superpowers",
-      "version": "1.0.0+lobe.2026-10-05",
-      "contentHash": "ab8419dad831",
+      "version": "1.0.0+lobe.2026-10-09",
+      "contentHash": "f6eb9f779b74",
       "summary": "superpowers 技能集的使用总则：如何按优先级选用合适的编程方法论 skill。关键词：superpowers、技能总览、方法论、如何选技能、工作流约定。注意：LobeHub 会自动路由技能，本 skill 仅作背景约定参考。",
       "resources": [
         "references/antigravity-tools.md",
@@ -187,29 +187,29 @@
     },
     {
       "name": "verification-before-completion",
-      "version": "1.0.0+lobe.2026-10-05",
-      "contentHash": "c11de22be57e",
+      "version": "1.0.0+lobe.2026-10-09",
+      "contentHash": "a8c340307f86",
       "summary": "在宣称『完成/已修复/测试通过』之前，必须先运行验证命令并确认输出，证据先于结论。关键词：完成前验证、别急着说做完、跑测试验证、证据先行、交付前检查。",
       "resources": []
     },
     {
       "name": "workflow-runner",
-      "version": "1.0.0+lobe.2026-10-05",
-      "contentHash": "7154cfc95c1f",
+      "version": "1.0.0+lobe.2026-10-09",
+      "contentHash": "013fd6035f9b",
       "summary": "直接运行 agency-orchestrator 的多角色 YAML 工作流（无需 API key），按 YAML 编排依次执行。关键词：YAML 工作流、多角色编排、workflow、orchestrator、工作流执行。",
       "resources": []
     },
     {
       "name": "writing-plans",
-      "version": "1.0.0+lobe.2026-10-05",
-      "contentHash": "f60286304cc9",
+      "version": "1.0.0+lobe.2026-10-09",
+      "contentHash": "d8ddbf1be482",
       "summary": "拿到规格或需求后、动手写代码前，把它拆成可执行的实现计划（范围检查、文件结构、任务粒度）。关键词：编写计划、写实现计划、任务拆分、方案设计、implementation plan。",
       "resources": []
     },
     {
       "name": "writing-skills",
-      "version": "1.0.0+lobe.2026-10-05",
-      "contentHash": "7ef300b18838",
+      "version": "1.0.0+lobe.2026-10-09",
+      "contentHash": "cc3ab07a7559",
       "summary": "创建、编辑或部署前验证一个 skill 时使用——用类 TDD 方法打磨技能定义与触发描述。关键词：写 skill、创建技能、编辑技能、技能验证、SKILL.md、skill 开发。",
       "resources": [
         "anthropic-best-practices.md",

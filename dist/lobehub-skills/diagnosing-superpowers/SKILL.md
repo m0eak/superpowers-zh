@@ -1,10 +1,10 @@
 ---
 name: "diagnosing-superpowers"
 description: "当一次 superpowers 会话出了问题、你的人类伙伴想知道原因时使用——重复劳动、无视计划、磕磕绊绊、结果质量差、某个技能没触发、\"太慢了\"、\"为什么这么贵\"、\"它到底在干什么\"——或者想给 superpowers 维护者整理一份 bug 报告；适用于当前会话，或按 id / 路径指定的过往会话，任何工具均可"
-version: "1.0.0+lobe.2026-10-05"
+version: "1.0.0+lobe.2026-10-09"
 license: "MIT"
 ---
-<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-10-05 从 superpowers-zh@7b54ba9 生成。
+<!-- 自动生成，勿手改。由 tools/lobehub-adapter/generate.mjs 于 2026-10-09 从 superpowers-zh@c7911bf 生成。
      要改内容请改上游 skills/ 或 overrides.json 后重新生成。 -->
 # 诊断 Superpowers
 
